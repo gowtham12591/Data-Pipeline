@@ -1,0 +1,30 @@
+create database employee_attrition;
+create table emp_details (
+    EmployeeNumber int not null primary key,
+    Environment_Satisfaction int,
+    Gender char(20),
+    Hourly_Rate int,
+    Job_Involvement int,
+    Job_Level int,
+    Job_Role char(40),
+    Job_Satisfaction int,
+    Marital_Status char(40),
+    Monthly_Income float,
+    Monthly_Rate float,
+    Num_comp_worked int,
+    Age_Over18 char(10),
+    Work_Overtime char(10),
+    Salary_Hike_Percentage float,
+    Performance_Rating int,
+    Relationship_Satisfaction int,
+    Std_working_hours int,
+    Stack_Option_Level int,
+    Total_working_years float,
+    Train_time_last_year int,
+    work_life_balance int,
+    Years_company float,
+    Years_current_role float,
+    Years_Promotion float,
+    Years_curr_mangaer float
+);
+
